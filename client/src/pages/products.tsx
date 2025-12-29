@@ -89,7 +89,7 @@ export default function Products() {
       {/* Header / Intro */}
       <section className="pt-32 pb-16 px-4 bg-muted/20">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">Product Ecosystem</h1>
+          <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 text-foreground">Product Ecosystem</h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Founded in 2024, our mission is to digitize the world&apos;s parking infrastructure to create more livable,
@@ -134,7 +134,7 @@ export default function Products() {
           >
             <div className="max-w-7xl mx-auto">
               <div className="mb-12">
-                <h2 className="text-3xl font-display font-bold mb-2">{section.title}</h2>
+                <h2 className="text-3xl font-display font-bold mb-2 text-foreground">{section.title}</h2>
                 <p className="text-lg text-muted-foreground">{section.desc}</p>
                 {section.action}
               </div>
@@ -152,14 +152,14 @@ export default function Products() {
                       <div className="p-3 bg-primary/10 rounded-lg text-primary">
                         <item.icon size={28} />
                       </div>
-                      <h3 className="text-2xl font-bold">{item.title}</h3>
+                      <h3 className="text-2xl font-bold text-foreground">{item.title}</h3>
                     </div>
 
                     <p className="text-muted-foreground mb-8 leading-relaxed">{item.desc}</p>
 
                     <div className="grid grid-cols-2 gap-3">
                       {item.specs.map((spec, s) => (
-                        <div key={s} className="text-sm font-medium flex items-center gap-2">
+                        <div key={s} className="text-sm font-medium flex items-center gap-2 text-foreground">
                           <div className="w-1.5 h-1.5 rounded-full bg-primary" />
                           {spec}
                         </div>

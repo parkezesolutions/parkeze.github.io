@@ -8,7 +8,7 @@ export default function Company() {
 
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-display font-bold mb-8">About Parkeze</h1>
+          <h1 className="text-4xl md:text-6xl font-display font-bold mb-8 text-foreground">About Parkeze</h1>
           <p className="text-xl text-muted-foreground leading-relaxed mb-12">
             Founded in 2024, our mission is to digitize the world's parking infrastructure to create more livable, efficient cities.
           </p>
@@ -18,7 +18,7 @@ export default function Company() {
       <section className="py-20 bg-muted/20">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-3xl font-display font-bold mb-6">Our Mission</h2>
+            <h2 className="text-3xl font-display font-bold mb-6 text-foreground">Our Mission</h2>
             <p className="text-muted-foreground text-lg mb-6">
               Parking is often the first and last experience people have with a destination. Yet, it remains one of the most archaic parts of modern infrastructure.
             </p>
@@ -27,7 +27,7 @@ export default function Company() {
             </p>
           </div>
           <div>
-             <h2 className="text-3xl font-display font-bold mb-6">Our Story</h2>
+             <h2 className="text-3xl font-display font-bold mb-6 text-foreground">Our Story</h2>
              <p className="text-muted-foreground text-lg mb-6">
                Parkeze emerged from the University of South Carolina, driven by the frustration of campus parking. What started as a student project has evolved into an industrial-grade IoT platform.
              </p>
@@ -41,7 +41,7 @@ export default function Company() {
       <section className="py-24 px-4">
         <div className="max-w-xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-display font-bold mb-4">Get in touch</h2>
+            <h2 className="text-3xl font-display font-bold mb-4 text-foreground">Get in touch</h2>
             <p className="text-muted-foreground">
               Have a question or want to work with us? Send us a message.
             </p>

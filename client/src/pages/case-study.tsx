@@ -55,8 +55,8 @@ export default function CaseStudy() {
               Parkeze deployed a pilot network of surface-mount sensors in high-traffic drop-off zones. These sensors communicate via LoRaWAN to a central gateway, providing real-time occupancy data to campus administration.
             </p>
 
-            <div className="bg-muted/30 p-6 rounded-xl my-8 border border-border">
-              <h3 className="text-lg font-bold mb-4 mt-0">Implementation Details</h3>
+            <div className="bg-muted/50 dark:bg-muted/30 p-6 rounded-xl my-8 border border-border/60">
+              <h3 className="text-lg font-bold mb-4 mt-0 text-foreground">Implementation Details</h3>
               <ul className="space-y-3 list-none pl-0">
                 {[
                   "Non-invasive installation (epoxy mount) required no asphalt drilling",

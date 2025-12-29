@@ -88,9 +88,9 @@ export default function Developers() {
                 desc: "Standardized geospatial data formats make it easy to overlay our data on Mapbox or Google Maps." 
               }
             ].map((item, i) => (
-              <div key={i} className="p-6 rounded-2xl bg-muted/20 hover:bg-muted/40 transition-colors">
+              <div key={i} className="p-6 rounded-2xl bg-muted/20 hover:bg-muted/40 transition-colors border border-border/40">
                 <item.icon className="w-10 h-10 text-primary mb-4" />
-                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                <h3 className="text-xl font-bold mb-3 text-foreground">{item.title}</h3>
                 <p className="text-muted-foreground">{item.desc}</p>
               </div>
             ))}
@@ -102,13 +102,13 @@ export default function Developers() {
       <section id="request-access" className="py-20 bg-muted/30 border-y border-border">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl font-display font-bold mb-4">Start building today</h2>
+            <h2 className="text-3xl font-display font-bold mb-4 text-foreground">Start building today</h2>
             <p className="text-muted-foreground mb-8">
               We're currently in closed beta for our developer API. Request access to join the waitlist and get early documentation.
             </p>
             <ul className="space-y-4">
               {["Free sandbox tier", "Direct support channel", "Interactive API explorer"].map((item, i) => (
-                <li key={i} className="flex items-center gap-3 font-medium">
+                <li key={i} className="flex items-center gap-3 font-medium text-foreground">
                   <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs">✓</div>
                   {item}
                 </li>
@@ -116,7 +116,7 @@ export default function Developers() {
             </ul>
           </div>
           <div className="bg-background p-8 rounded-2xl shadow-lg border border-border">
-            <h3 className="font-bold text-lg mb-6">Developer Access Request</h3>
+            <h3 className="font-bold text-lg mb-6 text-foreground">Developer Access Request</h3>
             <InquiryForm type="developer" />
           </div>
         </div>
