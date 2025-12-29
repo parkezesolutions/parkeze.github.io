@@ -165,7 +165,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: Database, title: "Road Sensors", sub: "Hardware" },
-              { icon: Wifi, title: "LoRa Gateway", sub: "Hardware" },
+              { icon: Wifi, title: "LoRaWAN Gateway", sub: "Hardware" },
               { icon: Activity, title: "Dashboard", sub: "Software" },
               { icon: Smartphone, title: "Driver App", sub: "User Experience" },
             ].map((item, i) => (
