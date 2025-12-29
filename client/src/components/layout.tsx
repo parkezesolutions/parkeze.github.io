@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import logo from "@assets/ParkezeNoBG.png";
+import logo from "@assets/ParkezeNoBg.png";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useState } from "react";
