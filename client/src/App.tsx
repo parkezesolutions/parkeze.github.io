@@ -10,6 +10,8 @@ import Developers from "@/pages/developers";
 import Company from "@/pages/company";
 import CaseStudy from "@/pages/case-study";
 import Login from "@/pages/login";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import TermsOfService from "@/pages/terms-of-service";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -21,6 +23,8 @@ function Router() {
       <Route path="/company" component={Company} />
       <Route path="/case-study/uofsc-pilot" component={CaseStudy} />
       <Route path="/login" component={Login} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms-of-service" component={TermsOfService} />
       <Route component={NotFound} />
     </Switch>
   );

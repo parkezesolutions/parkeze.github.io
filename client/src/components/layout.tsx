@@ -201,8 +201,8 @@ export function Footer() {
             © {new Date().getFullYear()} Parkeze Inc. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground">Privacy Policy</a>
-            <a href="#" className="text-xs text-muted-foreground hover:text-foreground">Terms of Service</a>
+            <Link href="/privacy-policy" className="text-xs text-muted-foreground hover:text-foreground">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="text-xs text-muted-foreground hover:text-foreground">Terms of Service</Link>
           </div>
         </div>
       </div>
