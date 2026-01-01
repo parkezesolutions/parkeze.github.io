@@ -70,6 +70,11 @@ export function Navbar() {
               </button>
             </div>
 
+            <a href="https://map.parkeze.com" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="sm" className="font-medium text-muted-foreground hover:text-foreground">
+                Map
+              </Button>
+            </a>
             <Link href="/login">
               <Button variant="ghost" size="sm" className="font-medium text-muted-foreground hover:text-foreground">
                 Login
@@ -133,6 +138,9 @@ export function Navbar() {
                 </Link>
               ))}
               <div className="pt-4 border-t border-border mt-4 flex flex-col gap-3">
+                <a href="https://map.parkeze.com" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button variant="outline" className="w-full">View Map</Button>
+                </a>
                 <Link href="/login" onClick={() => setMobileMenuOpen(false)}>
                   <Button variant="outline" className="w-full">Login</Button>
                 </Link>
@@ -170,6 +178,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-foreground">Product</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
+              <li><a href="https://map.parkeze.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Live Map</a></li>
               <li><Link href="/products" className="hover:text-primary transition-colors">Hardware Sensors</Link></li>
               <li><Link href="/products" className="hover:text-primary transition-colors">Analytics Dashboard</Link></li>
               <li><Link href="/products" className="hover:text-primary transition-colors">API Access</Link></li>

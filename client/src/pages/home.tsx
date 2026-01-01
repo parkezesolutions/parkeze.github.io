@@ -54,13 +54,23 @@ export default function Home() {
                 Talk to Us <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
 
+              <a href="https://map.parkeze.com" target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg px-7 py-4 rounded-xl border-2 hover:bg-muted/50"
+                >
+                  View Live Map
+                </Button>
+              </a>
+
               <Link href="/case-study/uofsc-pilot">
                 <Button
                   variant="outline"
                   size="lg"
                   className="text-lg px-7 py-4 rounded-xl border-2 hover:bg-muted/50"
                 >
-                  View Case Study
+                  Case Study
                 </Button>
               </Link>
             </div>

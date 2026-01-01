@@ -2,7 +2,7 @@ import { Navbar, Footer } from "@/components/layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { Server, Database, Activity, Smartphone, Cpu, Code2 } from "lucide-react";
+import { Server, Database, Activity, Smartphone, Cpu, Code2, Globe } from "lucide-react";
 
 // ✅ Theme-aware images (Tailwind handles showing/hiding via dark:)
 import DayTimeCar from "@assets/animated/DayTimeCar.png";
@@ -91,10 +91,21 @@ export default function Products() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 text-foreground">Product Ecosystem</h1>
 
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
             Founded in 2024, our mission is to digitize the world&apos;s parking infrastructure to create more livable,
             efficient cities.
           </p>
+
+          <a href="https://map.parkeze.com" target="_blank" rel="noopener noreferrer">
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="text-base px-6 py-3 rounded-xl border-2 hover:bg-muted/50 hover:border-primary/50 transition-all mb-10"
+            >
+              <Globe className="mr-2 h-5 w-5" />
+              View Live Parking Map
+            </Button>
+          </a>
 
           {/* ✅ Day/Night image swap based on theme */}
           <motion.div
